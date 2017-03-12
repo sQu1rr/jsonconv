@@ -1,2 +1,2 @@
 # jsonconv
-Typescript kson serialisation and de-serialisation object oriented library
+Typescript json serialisation and de-serialisation object oriented library
