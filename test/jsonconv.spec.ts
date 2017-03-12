@@ -1,3 +1,5 @@
+import 'core-js/es7/reflect'; // polyfill for reflection
+
 import {} from 'mocha';
 import { should } from 'chai';
 import { JsonConv, json } from '../src/jsonconv';

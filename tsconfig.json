@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "types": [ "node", "core-js" ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}
