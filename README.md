@@ -90,3 +90,7 @@ const conv = OutJson.fromJson(json);
 
 console.log(conv.toJson());
 ```
+
+## Be Aware: Date object
+
+Recently realised that unless you are using babel to compile to .js the Date object will be automatically converted to timestamp in json, but not back. This is a limitation of typescript and I will probably remove the date conversion feature from the future version.
